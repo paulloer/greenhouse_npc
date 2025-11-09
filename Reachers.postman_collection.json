@@ -112,6 +112,56 @@
 			"response": []
 		},
 		{
+			"name": "Last Data Variable Control",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2OGVkZjA3ZjE4NDRiZDFkNTQ2MTQ0MTciLCJpYXQiOjE3NjI1MDM4MTEsImV4cCI6MTc2MjU1NDIxMX0.gbpIRcB9QiPJsUfEgqxTM_7-aQgmDAfmL9Xibo2IzuE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"sensorIds\":[\"INVER_UVCEN11_REF_Agroconnect_Greenhouse_OPCUA\",\n    \"INVER_UVCEN12_REF_Agroconnect_Greenhouse_OPCUA\",\n    \"INVER_UVCEN13_REF_Agroconnect_Greenhouse_OPCUA\",\n    \"INVER_UVCEN21_REF_Agroconnect_Greenhouse_OPCUA\",\n    \"INVER_UVCEN22_REF_Agroconnect_Greenhouse_OPCUA\",\n    \"INVER_UVCEN23_REF_Agroconnect_Greenhouse_OPCUA\",\n    \"INVER_UVLAT1S_REF_Agroconnect_Greenhouse_OPCUA\",\n    \"INVER_UVLAT1SO_REF_Agroconnect_Greenhouse_OPCUA\",\n    \"INVER_UVLAT1NO_REF_Agroconnect_Greenhouse_OPCUA\",\n    \"INVER_UVLAT1N_REF_Agroconnect_Greenhouse_OPCUA\",\n    \"INVER_UVLAT2S_REF_Agroconnect_Greenhouse_OPCUA\",\n    \"INVER_UVLAT2E_REF_Agroconnect_Greenhouse_OPCUA\",\n    \"INVER_UVLAT2N_REF_Agroconnect_Greenhouse_OPCUA\"]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://iveg.ual.es:3790/api/v1/data/last-data-combined/multiple-by-sensorIds",
+					"protocol": "https",
+					"host": [
+						"iveg",
+						"ual",
+						"es"
+					],
+					"port": "3790",
+					"path": [
+						"api",
+						"v1",
+						"data",
+						"last-data-combined",
+						"multiple-by-sensorIds"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "FIWARE Data",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
