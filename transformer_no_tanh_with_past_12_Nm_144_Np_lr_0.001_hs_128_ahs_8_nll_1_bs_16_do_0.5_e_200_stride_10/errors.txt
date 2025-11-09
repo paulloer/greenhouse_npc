@@ -1,0 +1,511 @@
+
+
+model_A25_0.001lr_200e: RMS Temperature Error of 1.9961 with standard deviation 1.3382
+model_A25_0.001lr_200e: RMS Humidity Error of 8.1923 with standard deviation 7.0438
+
+model_A25_0.001lr_200e: RMS Temperature Error of 3.8506 with standard deviation 3.4493
+model_A25_0.001lr_200e: RMS Humidity Error of 7.6144 with standard deviation 7.2755
+
+model_A25_on_J25_0.001lr_200e: RMS Temperature Error of 1.8674 with standard deviation 1.7693
+model_A25_on_J25_0.001lr_200e: RMS Humidity Error of 6.9404 with standard deviation 6.7756
+
+model_A25_on_J25_0.001lr_200e: RMS Temperature Error of 1.8674 with standard deviation 1.7693
+model_A25_on_J25_0.001lr_200e: RMS Humidity Error of 6.9404 with standard deviation 6.7756
+
+model_A25_on_J25_0.001lr_200e: RMS Temperature Error of 1.8674 with standard deviation 1.7693
+model_A25_on_J25_0.001lr_200e: RMS Humidity Error of 6.9404 with standard deviation 6.7756
+
+model_A25_on_J25_0.001lr_200e: RMS Temperature Error of 1.8674 with standard deviation 1.7693
+model_A25_on_J25_0.001lr_200e: RMS Humidity Error of 6.9404 with standard deviation 6.7756
+
+model_A25_on_J25_0.001lr_200e: RMS Temperature Error of 3.4664 with standard deviation 3.4661
+model_A25_on_J25_0.001lr_200e: RMS Humidity Error of 11.3850 with standard deviation 11.3050
+
+model_A25_on_J25_0.001lr_200e: RMS Temperature Error of 3.4664 with standard deviation 3.4661
+model_A25_on_J25_0.001lr_200e: RMS Humidity Error of 11.3850 with standard deviation 11.3050
+
+model_J25_0.001lr_200e: RMS Temperature Error of 6.4061 with standard deviation 4.8157
+model_J25_0.001lr_200e: RMS Humidity Error of 12.2977 with standard deviation 8.3671
+
+model_J25_0.001lr_200e: RMS Temperature Error of 1.1838 with standard deviation 1.1838
+model_J25_0.001lr_200e: RMS Humidity Error of 3.5907 with standard deviation 3.2038
+
+model_A25_0.001lr_200e: RMS Temperature Error of 3.8506 with standard deviation 3.4493
+model_A25_0.001lr_200e: RMS Humidity Error of 7.6144 with standard deviation 7.2755
+
+model_J25_0.001lr_200e: RMS Temperature Error of 1.1838 with standard deviation 1.1838
+model_J25_0.001lr_200e: RMS Humidity Error of 3.5907 with standard deviation 3.2038
+
+model_transfer_A25_to_J25_0.01n_0.0001lr_200e: RMS Temperature Error of 2.0344 with standard deviation 1.6538
+model_transfer_A25_to_J25_0.01n_0.0001lr_200e: RMS Humidity Error of 4.1711 with standard deviation 3.7285
+
+model_transfer_A25_to_J25_0.01n_0.001lr_200e: RMS Temperature Error of 1.3745 with standard deviation 1.3375
+model_transfer_A25_to_J25_0.01n_0.001lr_200e: RMS Humidity Error of 3.2330 with standard deviation 3.1110
+
+model_transfer_A25_to_J25_on_A25_0.001lr_200e: RMS Temperature Error of 6.9978 with standard deviation 5.2077
+model_transfer_A25_to_J25_on_A25_0.001lr_200e: RMS Humidity Error of 14.2281 with standard deviation 11.3878
+
+model_J25_0.001lr_200e: RMS Temperature Error of 1.8700 with standard deviation 1.8622
+model_J25_0.001lr_200e: RMS Humidity Error of 4.8147 with standard deviation 4.7595
+
+model_transfer_A25_to_J25_0.01n_0.001lr_200e: RMS Temperature Error of 1.9862 with standard deviation 1.9502
+model_transfer_A25_to_J25_0.01n_0.001lr_200e: RMS Humidity Error of 4.2869 with standard deviation 4.2862
+
+model_transfer_A25_to_J25_on_A25_0.001lr_200e: RMS Temperature Error of 6.9978 with standard deviation 5.2077
+model_transfer_A25_to_J25_on_A25_0.001lr_200e: RMS Humidity Error of 14.2281 with standard deviation 11.3878
+
+model_all_0.001lr_200e: RMS Temperature Error of 4.4807 with standard deviation 3.9046
+model_all_0.001lr_200e: RMS Humidity Error of 20.8985 with standard deviation 16.1439
+
+model_A25_on_J25_0.001lr_200e: RMS Temperature Error of 3.5066 with standard deviation 3.4807
+model_A25_on_J25_0.001lr_200e: RMS Humidity Error of 10.3180 with standard deviation 10.3085
+
+model_transfer_A25_to_J25_0.01n_0.001lr_200e_2days: RMS Temperature Error of 2.0642 with standard deviation 2.0090
+model_transfer_A25_to_J25_0.01n_0.001lr_200e_2days: RMS Humidity Error of 4.2317 with standard deviation 4.2287
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Temperature Error of 2.1743 with standard deviation 2.1389
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Humidity Error of 5.7868 with standard deviation 3.5133
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days: RMS Temperature Error of 4.0113 with standard deviation 3.4302
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days: RMS Humidity Error of 6.8641 with standard deviation 5.7594
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days: RMS Temperature Error of 1.5641 with standard deviation 1.5589
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days: RMS Humidity Error of 7.8005 with standard deviation 6.3960
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days: RMS Temperature Error of 1.9805 with standard deviation 1.5808
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days: RMS Humidity Error of 2.8777 with standard deviation 2.4063
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days: RMS Temperature Error of 1.4845 with standard deviation 1.0921
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days: RMS Humidity Error of 3.0645 with standard deviation 2.9551
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_day_8: RMS Temperature Error of 1.0011 with standard deviation 0.9976
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_day_8: RMS Humidity Error of 3.4014 with standard deviation 3.3372
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_day_8: RMS Temperature Error of 1.5319 with standard deviation 1.0144
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_day_8: RMS Humidity Error of 3.5222 with standard deviation 3.3658
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_day_8: RMS Temperature Error of 1.2551 with standard deviation 0.9962
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_day_8: RMS Humidity Error of 5.1375 with standard deviation 3.4771
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_day_8: RMS Temperature Error of 1.4568 with standard deviation 0.9838
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_day_8: RMS Humidity Error of 3.5631 with standard deviation 3.1593
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_day_8: RMS Temperature Error of 1.4845 with standard deviation 1.0921
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_day_8: RMS Humidity Error of 3.0645 with standard deviation 2.9551
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_A25: RMS Temperature Error of 7.2140 with standard deviation 5.2288
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_A25: RMS Humidity Error of 14.8577 with standard deviation 11.1926
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_A25: RMS Temperature Error of 8.2518 with standard deviation 6.3674
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_A25: RMS Humidity Error of 14.9159 with standard deviation 11.9310
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_A25: RMS Temperature Error of 8.4589 with standard deviation 6.4810
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_A25: RMS Humidity Error of 16.2495 with standard deviation 11.7121
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_A25: RMS Temperature Error of 7.7727 with standard deviation 6.2524
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_A25: RMS Humidity Error of 13.4044 with standard deviation 11.3500
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_A25: RMS Temperature Error of 7.7184 with standard deviation 6.2556
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_A25: RMS Humidity Error of 13.1258 with standard deviation 11.4788
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_A25: RMS Temperature Error of 2.7646 with standard deviation 2.7464
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_A25: RMS Humidity Error of 13.7201 with standard deviation 12.1323
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_A25: RMS Temperature Error of 3.3619 with standard deviation 3.3359
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_A25: RMS Humidity Error of 11.9721 with standard deviation 11.2162
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_A25: RMS Temperature Error of 3.0830 with standard deviation 3.0770
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_A25: RMS Humidity Error of 10.8271 with standard deviation 10.7763
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_A25: RMS Temperature Error of 2.7089 with standard deviation 2.7062
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_A25: RMS Humidity Error of 11.6902 with standard deviation 10.4863
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_A25: RMS Temperature Error of 2.6637 with standard deviation 2.6630
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_A25: RMS Humidity Error of 12.1488 with standard deviation 10.7370
+
+model_transfer_A25_to_J25_0.01n_0.001lr_200e_2025-06-23 15:38:48: RMS Temperature Error of 1.2122 with standard deviation 1.2081
+model_transfer_A25_to_J25_0.01n_0.001lr_200e_2025-06-23 15:38:48: RMS Humidity Error of 4.2208 with standard deviation 4.2170
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Temperature Error of 1.9685 with standard deviation 1.9605
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Humidity Error of 3.8632 with standard deviation 3.8433
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days: RMS Temperature Error of 1.2831 with standard deviation 1.2375
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days: RMS Humidity Error of 4.2433 with standard deviation 3.0444
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days: RMS Temperature Error of 0.7964 with standard deviation 0.6967
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days: RMS Humidity Error of 1.9160 with standard deviation 1.9026
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days: RMS Temperature Error of 1.9764 with standard deviation 1.9316
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days: RMS Humidity Error of 3.4654 with standard deviation 3.4292
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days: RMS Temperature Error of 1.1941 with standard deviation 0.2725
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days: RMS Humidity Error of 1.7695 with standard deviation 1.7260
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days: RMS Temperature Error of 1.6623 with standard deviation 1.6414
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days: RMS Humidity Error of 2.7623 with standard deviation 2.7515
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days: RMS Temperature Error of 0.9670 with standard deviation 0.9661
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days: RMS Humidity Error of 2.8793 with standard deviation 2.8088
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days: RMS Temperature Error of 0.7547 with standard deviation 0.7348
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days: RMS Humidity Error of 1.9526 with standard deviation 1.8491
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days: RMS Temperature Error of 1.4453 with standard deviation 1.4399
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days: RMS Humidity Error of 3.7730 with standard deviation 3.7493
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_11days: RMS Temperature Error of 0.6288 with standard deviation 0.3539
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_11days: RMS Humidity Error of 3.4322 with standard deviation 2.2678
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Temperature Error of 1.7946 with standard deviation 1.4451
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Humidity Error of 5.6965 with standard deviation 5.6308
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days: RMS Temperature Error of 1.1380 with standard deviation 1.1369
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days: RMS Humidity Error of 4.9550 with standard deviation 2.2840
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days: RMS Temperature Error of 1.6782 with standard deviation 1.6028
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days: RMS Humidity Error of 5.4760 with standard deviation 3.0931
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Temperature Error of 1.5900 with standard deviation 0.9070
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Humidity Error of 3.2733 with standard deviation 3.1236
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days: RMS Temperature Error of 1.1774 with standard deviation 1.1184
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days: RMS Humidity Error of 2.6119 with standard deviation 2.4510
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days: RMS Temperature Error of 1.4758 with standard deviation 1.4544
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days: RMS Humidity Error of 2.3448 with standard deviation 2.2665
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days: RMS Temperature Error of 1.4289 with standard deviation 1.3982
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days: RMS Humidity Error of 2.7470 with standard deviation 2.7115
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days: RMS Temperature Error of 0.9415 with standard deviation 0.9347
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days: RMS Humidity Error of 2.1596 with standard deviation 1.8208
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days: RMS Temperature Error of 1.3945 with standard deviation 1.3649
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days: RMS Humidity Error of 3.7708 with standard deviation 3.7455
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days: RMS Temperature Error of 1.4911 with standard deviation 1.4818
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days: RMS Humidity Error of 2.8228 with standard deviation 2.8181
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days: RMS Temperature Error of 1.1915 with standard deviation 1.1901
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days: RMS Humidity Error of 2.6080 with standard deviation 2.5749
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days: RMS Temperature Error of 1.0052 with standard deviation 0.9899
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days: RMS Humidity Error of 1.6863 with standard deviation 1.6178
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_day_12: RMS Temperature Error of 0.7770 with standard deviation 0.7230
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_day_12: RMS Humidity Error of 1.8994 with standard deviation 1.6550
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_day_12: RMS Temperature Error of 0.7833 with standard deviation 0.7162
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_day_12: RMS Humidity Error of 1.9221 with standard deviation 1.6538
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_day_12: RMS Temperature Error of 0.7858 with standard deviation 0.7148
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_day_12: RMS Humidity Error of 1.9071 with standard deviation 1.6486
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_day_12: RMS Temperature Error of 0.7651 with standard deviation 0.7138
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_day_12: RMS Humidity Error of 1.8767 with standard deviation 1.6627
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_day_12: RMS Temperature Error of 0.7600 with standard deviation 0.7077
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_day_12: RMS Humidity Error of 1.8952 with standard deviation 1.6975
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_day_12: RMS Temperature Error of 0.7505 with standard deviation 0.6996
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_day_12: RMS Humidity Error of 1.8663 with standard deviation 1.7117
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_day_12: RMS Temperature Error of 0.7435 with standard deviation 0.7026
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_day_12: RMS Humidity Error of 1.8207 with standard deviation 1.6826
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_day_12: RMS Temperature Error of 0.7354 with standard deviation 0.6978
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_day_12: RMS Humidity Error of 1.7542 with standard deviation 1.6434
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_day_12: RMS Temperature Error of 0.7141 with standard deviation 0.6985
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_day_12: RMS Humidity Error of 1.7368 with standard deviation 1.6240
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_A25: RMS Temperature Error of 1.6504 with standard deviation 1.6139
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_A25: RMS Humidity Error of 13.9539 with standard deviation 12.7321
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_A25: RMS Temperature Error of 1.6214 with standard deviation 1.5821
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_A25: RMS Humidity Error of 13.9492 with standard deviation 12.7098
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_A25: RMS Temperature Error of 1.6027 with standard deviation 1.5652
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_A25: RMS Humidity Error of 13.9832 with standard deviation 12.7208
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_A25: RMS Temperature Error of 1.6006 with standard deviation 1.5594
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_A25: RMS Humidity Error of 14.0306 with standard deviation 12.7206
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_A25: RMS Temperature Error of 1.5803 with standard deviation 1.5492
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_A25: RMS Humidity Error of 14.0437 with standard deviation 12.6531
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_A25: RMS Temperature Error of 1.5506 with standard deviation 1.5231
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_A25: RMS Humidity Error of 13.9301 with standard deviation 12.5646
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_A25: RMS Temperature Error of 1.5584 with standard deviation 1.5296
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_A25: RMS Humidity Error of 13.8850 with standard deviation 12.5744
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_A25: RMS Temperature Error of 1.5422 with standard deviation 1.5132
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_A25: RMS Humidity Error of 13.8332 with standard deviation 12.5448
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_A25: RMS Temperature Error of 1.5638 with standard deviation 1.5230
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_A25: RMS Humidity Error of 13.8248 with standard deviation 12.5366
+
+model_A25_0.001lr_200e: RMS Temperature Error of 1.9961 with standard deviation 1.3382
+model_A25_0.001lr_200e: RMS Humidity Error of 8.1923 with standard deviation 7.0438
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Temperature Error of 1.5900 with standard deviation 0.9070
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Humidity Error of 3.2733 with standard deviation 3.1236
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days: RMS Temperature Error of 1.1774 with standard deviation 1.1184
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days: RMS Humidity Error of 2.6119 with standard deviation 2.4510
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days: RMS Temperature Error of 1.4758 with standard deviation 1.4544
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days: RMS Humidity Error of 2.3448 with standard deviation 2.2665
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days: RMS Temperature Error of 1.4289 with standard deviation 1.3982
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days: RMS Humidity Error of 2.7470 with standard deviation 2.7115
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days: RMS Temperature Error of 0.9415 with standard deviation 0.9347
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days: RMS Humidity Error of 2.1596 with standard deviation 1.8208
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days: RMS Temperature Error of 1.3945 with standard deviation 1.3649
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days: RMS Humidity Error of 3.7708 with standard deviation 3.7455
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days: RMS Temperature Error of 1.4911 with standard deviation 1.4818
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days: RMS Humidity Error of 2.8228 with standard deviation 2.8181
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days: RMS Temperature Error of 1.1915 with standard deviation 1.1901
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days: RMS Humidity Error of 2.6080 with standard deviation 2.5749
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days: RMS Temperature Error of 1.0052 with standard deviation 0.9899
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days: RMS Humidity Error of 1.6863 with standard deviation 1.6178
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_day_12: RMS Temperature Error of 0.7770 with standard deviation 0.7230
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_day_12: RMS Humidity Error of 1.8994 with standard deviation 1.6550
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_day_12: RMS Temperature Error of 0.7833 with standard deviation 0.7162
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_day_12: RMS Humidity Error of 1.9221 with standard deviation 1.6538
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_day_12: RMS Temperature Error of 0.7858 with standard deviation 0.7148
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_day_12: RMS Humidity Error of 1.9071 with standard deviation 1.6486
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_day_12: RMS Temperature Error of 0.7651 with standard deviation 0.7138
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_day_12: RMS Humidity Error of 1.8767 with standard deviation 1.6627
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_day_12: RMS Temperature Error of 0.7600 with standard deviation 0.7077
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_day_12: RMS Humidity Error of 1.8952 with standard deviation 1.6975
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_day_12: RMS Temperature Error of 0.7505 with standard deviation 0.6996
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_day_12: RMS Humidity Error of 1.8663 with standard deviation 1.7117
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_day_12: RMS Temperature Error of 0.7435 with standard deviation 0.7026
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_day_12: RMS Humidity Error of 1.8207 with standard deviation 1.6826
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_day_12: RMS Temperature Error of 0.7354 with standard deviation 0.6978
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_day_12: RMS Humidity Error of 1.7542 with standard deviation 1.6434
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_day_12: RMS Temperature Error of 0.7141 with standard deviation 0.6985
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_day_12: RMS Humidity Error of 1.7368 with standard deviation 1.6240
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_A25: RMS Temperature Error of 1.6504 with standard deviation 1.6139
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_A25: RMS Humidity Error of 13.9539 with standard deviation 12.7321
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_A25: RMS Temperature Error of 1.6214 with standard deviation 1.5821
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_A25: RMS Humidity Error of 13.9492 with standard deviation 12.7098
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_A25: RMS Temperature Error of 1.6027 with standard deviation 1.5652
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_A25: RMS Humidity Error of 13.9832 with standard deviation 12.7208
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_A25: RMS Temperature Error of 1.6006 with standard deviation 1.5594
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_A25: RMS Humidity Error of 14.0306 with standard deviation 12.7206
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_A25: RMS Temperature Error of 1.5803 with standard deviation 1.5492
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_A25: RMS Humidity Error of 14.0437 with standard deviation 12.6531
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_A25: RMS Temperature Error of 1.5506 with standard deviation 1.5231
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_A25: RMS Humidity Error of 13.9301 with standard deviation 12.5646
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_A25: RMS Temperature Error of 1.5584 with standard deviation 1.5296
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_A25: RMS Humidity Error of 13.8850 with standard deviation 12.5744
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_A25: RMS Temperature Error of 1.5422 with standard deviation 1.5132
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_A25: RMS Humidity Error of 13.8332 with standard deviation 12.5448
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_A25: RMS Temperature Error of 1.5638 with standard deviation 1.5230
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_A25: RMS Humidity Error of 13.8248 with standard deviation 12.5366
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Temperature Error of 1.5900 with standard deviation 0.9070
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Humidity Error of 3.2733 with standard deviation 3.1236
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Temperature Error of 1.5900 with standard deviation 0.9070
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Humidity Error of 3.2733 with standard deviation 3.1236
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Temperature Error of 1.5900 with standard deviation 0.9070
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Humidity Error of 3.2733 with standard deviation 3.1236
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Temperature Error of 1.5900 with standard deviation 0.9070
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Humidity Error of 3.2733 with standard deviation 3.1236
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Temperature Error of 1.5900 with standard deviation 0.9070
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Humidity Error of 3.2733 with standard deviation 3.1236
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days: RMS Temperature Error of 1.1774 with standard deviation 1.1184
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days: RMS Humidity Error of 2.6119 with standard deviation 2.4510
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days: RMS Temperature Error of 1.4758 with standard deviation 1.4544
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days: RMS Humidity Error of 2.3448 with standard deviation 2.2665
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days: RMS Temperature Error of 1.4289 with standard deviation 1.3982
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days: RMS Humidity Error of 2.7470 with standard deviation 2.7115
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days: RMS Temperature Error of 0.9415 with standard deviation 0.9347
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days: RMS Humidity Error of 2.1596 with standard deviation 1.8208
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days: RMS Temperature Error of 1.3945 with standard deviation 1.3649
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days: RMS Humidity Error of 3.7708 with standard deviation 3.7455
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days: RMS Temperature Error of 1.4911 with standard deviation 1.4818
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days: RMS Humidity Error of 2.8228 with standard deviation 2.8181
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days: RMS Temperature Error of 1.1915 with standard deviation 1.1901
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days: RMS Humidity Error of 2.6080 with standard deviation 2.5749
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days: RMS Temperature Error of 1.0052 with standard deviation 0.9899
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days: RMS Humidity Error of 1.6863 with standard deviation 1.6178
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_day_12: RMS Temperature Error of 0.7770 with standard deviation 0.7230
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_day_12: RMS Humidity Error of 1.8994 with standard deviation 1.6550
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_day_12: RMS Temperature Error of 0.7833 with standard deviation 0.7162
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_day_12: RMS Humidity Error of 1.9221 with standard deviation 1.6538
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_day_12: RMS Temperature Error of 0.7858 with standard deviation 0.7148
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_day_12: RMS Humidity Error of 1.9071 with standard deviation 1.6486
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_day_12: RMS Temperature Error of 0.7651 with standard deviation 0.7138
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_day_12: RMS Humidity Error of 1.8767 with standard deviation 1.6627
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_day_12: RMS Temperature Error of 0.7600 with standard deviation 0.7077
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_day_12: RMS Humidity Error of 1.8952 with standard deviation 1.6975
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_day_12: RMS Temperature Error of 0.7505 with standard deviation 0.6996
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_day_12: RMS Humidity Error of 1.8663 with standard deviation 1.7117
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_day_12: RMS Temperature Error of 0.7435 with standard deviation 0.7026
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_day_12: RMS Humidity Error of 1.8207 with standard deviation 1.6826
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_day_12: RMS Temperature Error of 0.7354 with standard deviation 0.6978
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_day_12: RMS Humidity Error of 1.7542 with standard deviation 1.6434
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_day_12: RMS Temperature Error of 0.7141 with standard deviation 0.6985
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_day_12: RMS Humidity Error of 1.7368 with standard deviation 1.6240
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_A25: RMS Temperature Error of 1.6504 with standard deviation 1.6139
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_A25: RMS Humidity Error of 13.9539 with standard deviation 12.7321
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_A25: RMS Temperature Error of 1.6214 with standard deviation 1.5821
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_A25: RMS Humidity Error of 13.9492 with standard deviation 12.7098
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_A25: RMS Temperature Error of 1.6027 with standard deviation 1.5652
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_A25: RMS Humidity Error of 13.9832 with standard deviation 12.7208
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_A25: RMS Temperature Error of 1.6006 with standard deviation 1.5594
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_A25: RMS Humidity Error of 14.0306 with standard deviation 12.7206
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_A25: RMS Temperature Error of 1.5803 with standard deviation 1.5492
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_A25: RMS Humidity Error of 14.0437 with standard deviation 12.6531
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_A25: RMS Temperature Error of 1.5506 with standard deviation 1.5231
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_A25: RMS Humidity Error of 13.9301 with standard deviation 12.5646
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_A25: RMS Temperature Error of 1.5584 with standard deviation 1.5296
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_A25: RMS Humidity Error of 13.8850 with standard deviation 12.5744
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_A25: RMS Temperature Error of 1.5422 with standard deviation 1.5132
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_A25: RMS Humidity Error of 13.8332 with standard deviation 12.5448
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_A25: RMS Temperature Error of 1.5638 with standard deviation 1.5230
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_A25: RMS Humidity Error of 13.8248 with standard deviation 12.5366
+
+model_A25_0.001lr_200e: RMS Temperature Error of 1.9961 with standard deviation 1.3382
+model_A25_0.001lr_200e: RMS Humidity Error of 8.1923 with standard deviation 7.0438
+
+model_W24: RMS Temperature Error of 0.7112 with standard deviation 0.7087
+model_W24: RMS Humidity Error of 4.9341 with standard deviation 4.6772
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Temperature Error of 1.5900 with standard deviation 0.9070
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days: RMS Humidity Error of 3.2733 with standard deviation 3.1236
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days: RMS Temperature Error of 1.1774 with standard deviation 1.1184
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days: RMS Humidity Error of 2.6119 with standard deviation 2.4510
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days: RMS Temperature Error of 1.4758 with standard deviation 1.4544
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days: RMS Humidity Error of 2.3448 with standard deviation 2.2665
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days: RMS Temperature Error of 1.4289 with standard deviation 1.3982
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days: RMS Humidity Error of 2.7470 with standard deviation 2.7115
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days: RMS Temperature Error of 0.9415 with standard deviation 0.9347
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days: RMS Humidity Error of 2.1596 with standard deviation 1.8208
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days: RMS Temperature Error of 1.3945 with standard deviation 1.3649
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days: RMS Humidity Error of 3.7708 with standard deviation 3.7455
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days: RMS Temperature Error of 1.4911 with standard deviation 1.4818
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days: RMS Humidity Error of 2.8228 with standard deviation 2.8181
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days: RMS Temperature Error of 1.1915 with standard deviation 1.1901
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days: RMS Humidity Error of 2.6080 with standard deviation 2.5749
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days: RMS Temperature Error of 1.0052 with standard deviation 0.9899
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days: RMS Humidity Error of 1.6863 with standard deviation 1.6178
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_day_12: RMS Temperature Error of 0.7770 with standard deviation 0.7230
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_day_12: RMS Humidity Error of 1.8994 with standard deviation 1.6550
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_day_12: RMS Temperature Error of 0.7833 with standard deviation 0.7162
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_day_12: RMS Humidity Error of 1.9221 with standard deviation 1.6538
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_day_12: RMS Temperature Error of 0.7858 with standard deviation 0.7148
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_day_12: RMS Humidity Error of 1.9071 with standard deviation 1.6486
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_day_12: RMS Temperature Error of 0.7651 with standard deviation 0.7138
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_day_12: RMS Humidity Error of 1.8767 with standard deviation 1.6627
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_day_12: RMS Temperature Error of 0.7600 with standard deviation 0.7077
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_day_12: RMS Humidity Error of 1.8952 with standard deviation 1.6975
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_day_12: RMS Temperature Error of 0.7505 with standard deviation 0.6996
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_day_12: RMS Humidity Error of 1.8663 with standard deviation 1.7117
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_day_12: RMS Temperature Error of 0.7435 with standard deviation 0.7026
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_day_12: RMS Humidity Error of 1.8207 with standard deviation 1.6826
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_day_12: RMS Temperature Error of 0.7354 with standard deviation 0.6978
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_day_12: RMS Humidity Error of 1.7542 with standard deviation 1.6434
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_day_12: RMS Temperature Error of 0.7141 with standard deviation 0.6985
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_day_12: RMS Humidity Error of 1.7368 with standard deviation 1.6240
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_A25: RMS Temperature Error of 1.6504 with standard deviation 1.6139
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_2days_on_A25: RMS Humidity Error of 13.9539 with standard deviation 12.7321
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_A25: RMS Temperature Error of 1.6214 with standard deviation 1.5821
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_3days_on_A25: RMS Humidity Error of 13.9492 with standard deviation 12.7098
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_A25: RMS Temperature Error of 1.6027 with standard deviation 1.5652
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_4days_on_A25: RMS Humidity Error of 13.9832 with standard deviation 12.7208
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_A25: RMS Temperature Error of 1.6006 with standard deviation 1.5594
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_5days_on_A25: RMS Humidity Error of 14.0306 with standard deviation 12.7206
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_A25: RMS Temperature Error of 1.5803 with standard deviation 1.5492
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_6days_on_A25: RMS Humidity Error of 14.0437 with standard deviation 12.6531
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_A25: RMS Temperature Error of 1.5506 with standard deviation 1.5231
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_7days_on_A25: RMS Humidity Error of 13.9301 with standard deviation 12.5646
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_A25: RMS Temperature Error of 1.5584 with standard deviation 1.5296
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_8days_on_A25: RMS Humidity Error of 13.8850 with standard deviation 12.5744
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_A25: RMS Temperature Error of 1.5422 with standard deviation 1.5132
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_A25: RMS Humidity Error of 13.8332 with standard deviation 12.5448
+
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_A25: RMS Temperature Error of 1.5638 with standard deviation 1.5230
+model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_A25: RMS Humidity Error of 13.8248 with standard deviation 12.5366

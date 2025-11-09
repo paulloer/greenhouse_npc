@@ -1,0 +1,4 @@
+Date,Temperature_inside,Humidity_inside,Temperature_outside,Humidity_outside,Radiation_inside,Radiation_outside,Wind_speed_outside,Vent_S1_Roof_1,Vent_S1_Roof_2,Vent_S1_Roof_3,Vent_S1_Side_NW,Vent_S1_Side_S,Vent_S1_Side_N,Vent_S1_Side_SW,Vent_S2_Roof_1,Vent_S2_Roof_2,Vent_S2_Roof_3,Vent_S2_Side_E,Vent_S2_Side_S,Vent_S2_Side_N
+2025-11-06 23:22:18,17.12,41.19,17.75,31.38,0,0.12,7.05,0.44,1.53,0.53,0.64,100,99,100,100,100,100,100,40.5,0.56
+2025-11-06 23:22:49,17.02,40.97,17.72,31.62,0,0,12.31,0.43,1.53,0.53,0.66,100.1,99,100,100,100,100,100,40.5,0.56
+2025-11-06 23:23:20,17.14,40.69,17.75,31.42,0,0,10.93,0.43,1.54,0.53,0.66,100,99.3,100,100,100,100,100,40.5,0.54

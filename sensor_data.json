@@ -1,0 +1,425 @@
+{
+  "ok": true,
+  "data": [
+    {
+      "name": "PLC1-PLC1-INVER_TEMP_INTERIOR_S1",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC1-PLC1-INVER_TEMP_INTERIOR_S1",
+      "variable": "INVER_TEMP_INTERIOR_S1",
+      "unit": "\u00b0C",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC1-PLC1-INVER_TEMP_INTERIOR_S1_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC1",
+      "measures": {
+        "value": 15.79,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144903,
+        "timestamp": "2025-11-09T18:49:04.903Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604ac"
+    },
+    {
+      "name": "PLC1-PLC1-INVER_HR_INTERIOR_S1",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC1-PLC1-INVER_HR_INTERIOR_S1",
+      "variable": "INVER_HR_INTERIOR_S1",
+      "unit": "%",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC1-PLC1-INVER_HR_INTERIOR_S1_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC1",
+      "measures": {
+        "value": 91.19,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144900,
+        "timestamp": "2025-11-09T18:49:04.900Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604a9"
+    },
+    {
+      "name": "PLC6-PLC6-TEMP_EXTERIOR_10M",
+      "type": "clima",
+      "place": "exterior",
+      "img": "",
+      "nameFiware": "PLC6-PLC6-TEMP_EXTERIOR_10M",
+      "variable": "TEMP_EXTERIOR_10M",
+      "unit": "\u00b0C",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC6-PLC6-TEMP_EXTERIOR_10M_Agroconnect_Greenhouse_Modbus",
+      "zone": "ExteriorPV",
+      "source": "PLC6",
+      "measures": {
+        "value": 14.72,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144868,
+        "timestamp": "2025-11-09T18:49:04.868Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb6053e"
+    },
+    {
+      "name": "PLC6-PLC6-HR_EXTERIOR_10M",
+      "type": "clima",
+      "place": "exterior",
+      "img": "",
+      "nameFiware": "PLC6-PLC6-HR_EXTERIOR_10M",
+      "variable": "HR_EXTERIOR_10M",
+      "unit": "%",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC6-PLC6-HR_EXTERIOR_10M_Agroconnect_Greenhouse_Modbus",
+      "zone": "ExteriorPV",
+      "source": "PLC6",
+      "measures": {
+        "value": 88.19,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144858,
+        "timestamp": "2025-11-09T18:49:04.858Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb6053a"
+    },
+    {
+      "name": "PLC1-PLC1-INVER_RADGLOBAL_INTERIOR_S1",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC1-PLC1-INVER_RADGLOBAL_INTERIOR_S1",
+      "variable": "INVER_RADGLOBAL_INTERIOR_S1",
+      "unit": "W/m2",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC1-PLC1-INVER_RADGLOBAL_INTERIOR_S1_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC1",
+      "measures": {
+        "value": 0,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144901,
+        "timestamp": "2025-11-09T18:49:04.901Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604aa"
+    },
+    {
+      "name": "PLC6-PLC6-RADGLOBAL_EXTERIOR_10M",
+      "type": "clima",
+      "place": "exterior",
+      "img": "",
+      "nameFiware": "PLC6-PLC6-RADGLOBAL_EXTERIOR_10M",
+      "variable": "RADGLOBAL_EXTERIOR_10M",
+      "unit": "W/m2",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC6-PLC6-RADGLOBAL_EXTERIOR_10M_Agroconnect_Greenhouse_Modbus",
+      "zone": "ExteriorPV",
+      "source": "PLC6",
+      "measures": {
+        "value": 0,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144863,
+        "timestamp": "2025-11-09T18:49:04.863Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb6053c"
+    },
+    {
+      "name": "PLC6-PLC6-VELVIENTO_EXTERIOR_10M",
+      "type": "clima",
+      "place": "exterior",
+      "img": "",
+      "nameFiware": "PLC6-PLC6-VELVIENTO_EXTERIOR_10M",
+      "variable": "VELVIENTO_EXTERIOR_10M",
+      "unit": "km/h",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC6-PLC6-VELVIENTO_EXTERIOR_10M_Agroconnect_Greenhouse_Modbus",
+      "zone": "ExteriorPV",
+      "source": "PLC6",
+      "measures": {
+        "value": 0,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144869,
+        "timestamp": "2025-11-09T18:49:04.869Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb6053f"
+    },
+    {
+      "name": "PLC1-PLC1-INVER_UVCEN11_Encoder",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC1-PLC1-INVER_UVCEN11_Encoder",
+      "variable": "INVER_UVCEN11_ENCODER",
+      "unit": "%",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC1-PLC1-INVER_UVCEN11_Encoder_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC1",
+      "measures": {
+        "value": 0.44,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144911,
+        "timestamp": "2025-11-09T18:49:04.911Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604af"
+    },
+    {
+      "name": "PLC1-PLC1-INVER_UVCEN12_Encoder",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC1-PLC1-INVER_UVCEN12_Encoder",
+      "variable": "INVER_UVCEN12_ENCODER",
+      "unit": "%",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC1-PLC1-INVER_UVCEN12_Encoder_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC1",
+      "measures": {
+        "value": 1.53,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144913,
+        "timestamp": "2025-11-09T18:49:04.913Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604b0"
+    },
+    {
+      "name": "PLC1-PLC1-INVER_UVCEN13_Encoder",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC1-PLC1-INVER_UVCEN13_Encoder",
+      "variable": "INVER_UVCEN13_ENCODER",
+      "unit": "%",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC1-PLC1-INVER_UVCEN13_Encoder_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC1",
+      "measures": {
+        "value": 0.54,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144915,
+        "timestamp": "2025-11-09T18:49:04.915Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604b1"
+    },
+    {
+      "name": "PLC1-PLC1-INVER_UVLAT1NO_Encoder",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC1-PLC1-INVER_UVLAT1NO_Encoder",
+      "variable": "INVER_UVLAT1NO_ENCODER",
+      "unit": "%",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC1-PLC1-INVER_UVLAT1NO_Encoder_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC1",
+      "measures": {
+        "value": 0.66,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144916,
+        "timestamp": "2025-11-09T18:49:04.916Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604b2"
+    },
+    {
+      "name": "PLC1-PLC1-INVER_UVLAT1S_Encoder",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC1-PLC1-INVER_UVLAT1S_Encoder",
+      "variable": "INVER_UVLAT1S_ENCODER",
+      "unit": "%",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC1-PLC1-INVER_UVLAT1S_Encoder_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC1",
+      "measures": {
+        "value": 100,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144918,
+        "timestamp": "2025-11-09T18:49:04.918Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604b6"
+    },
+    {
+      "name": "PLC1-PLC1-INVER_UVLAT1N_Encoder",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC1-PLC1-INVER_UVLAT1N_Encoder",
+      "variable": "INVER_UVLAT1N_ENCODER",
+      "unit": "%",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC1-PLC1-INVER_UVLAT1N_Encoder_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC1",
+      "measures": {
+        "value": 99,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144907,
+        "timestamp": "2025-11-09T18:49:04.907Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604b3"
+    },
+    {
+      "name": "PLC1-PLC1-INVER_UVLAT1SO_Encoder",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC1-PLC1-INVER_UVLAT1SO_Encoder",
+      "variable": "INVER_UVLAT1SO_ENCODER",
+      "unit": "%",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC1-PLC1-INVER_UVLAT1SO_Encoder_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC1",
+      "measures": {
+        "value": 100,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144919,
+        "timestamp": "2025-11-09T18:49:04.919Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604b5"
+    },
+    {
+      "name": "PLC2-PLC2-INVER_UVCEN21_Encoder",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC2-PLC2-INVER_UVCEN21_Encoder",
+      "variable": "INVER_UVCEN21_ENCODER",
+      "unit": "%",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC2-PLC2-INVER_UVCEN21_Encoder_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC2",
+      "measures": {
+        "value": 100,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144910,
+        "timestamp": "2025-11-09T18:49:04.910Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604c0"
+    },
+    {
+      "name": "PLC2-PLC2-INVER_UVCEN22_Encoder",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC2-PLC2-INVER_UVCEN22_Encoder",
+      "variable": "INVER_UVCEN22_ENCODER",
+      "unit": "%",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC2-PLC2-INVER_UVCEN22_Encoder_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC2",
+      "measures": {
+        "value": 100,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144912,
+        "timestamp": "2025-11-09T18:49:04.912Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604c1"
+    },
+    {
+      "name": "PLC2-PLC2-INVER_UVCEN23_Encoder",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC2-PLC2-INVER_UVCEN23_Encoder",
+      "variable": "INVER_UVCEN23_ENCODER",
+      "unit": "%",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC2-PLC2-INVER_UVCEN23_Encoder_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC2",
+      "measures": {
+        "value": 100,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144914,
+        "timestamp": "2025-11-09T18:49:04.914Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604c2"
+    },
+    {
+      "name": "PLC2-PLC2-INVER_UVLAT2E_Encoder",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC2-PLC2-INVER_UVLAT2E_Encoder",
+      "variable": "INVER_UVLAT2E_ENCODER",
+      "unit": "%",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC2-PLC2-INVER_UVLAT2E_Encoder_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC2",
+      "measures": {
+        "value": 100,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144916,
+        "timestamp": "2025-11-09T18:49:04.916Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604c3"
+    },
+    {
+      "name": "PLC2-PLC2-INVER_UVLAT2S_Encoder",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC2-PLC2-INVER_UVLAT2S_Encoder",
+      "variable": "INVER_UVLAT2S_ENCODER",
+      "unit": "%",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC2-PLC2-INVER_UVLAT2S_Encoder_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC2",
+      "measures": {
+        "value": 40.5,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144918,
+        "timestamp": "2025-11-09T18:49:04.918Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604c5"
+    },
+    {
+      "name": "PLC2-PLC2-INVER_UVLAT2N_Encoder",
+      "type": "clima",
+      "place": "interior",
+      "img": "",
+      "nameFiware": "PLC2-PLC2-INVER_UVLAT2N_Encoder",
+      "variable": "INVER_UVLAT2N_ENCODER",
+      "unit": "%",
+      "manufacturer": "OPCUA",
+      "sensorId": "PLC2-PLC2-INVER_UVLAT2N_Encoder_Agroconnect_Greenhouse_Modbus",
+      "zone": "Invernadero",
+      "source": "PLC2",
+      "measures": {
+        "value": 0.54,
+        "unixTimestamp": 1762714144,
+        "unixTimestampMS": 1762714144917,
+        "timestamp": "2025-11-09T18:49:04.917Z",
+        "datetime": "2025-11-09 19:49:04+01:00"
+      },
+      "_id": "6825d05805b42e8f1cb604c4"
+    }
+  ]
+}
