@@ -4,3 +4,6 @@
 *.pgf
 **/*.pdf
 *.pdf
+
+.DS_Store
+__pycache__
