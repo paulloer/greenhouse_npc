@@ -14,11 +14,11 @@
       "zone": "Invernadero",
       "source": "PLC1",
       "measures": {
-        "value": 15.64,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165107,
-        "timestamp": "2025-11-09T19:06:05.107Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "value": 25.66,
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471856,
+        "timestamp": "2025-11-11T11:11:11.856Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604ac"
     },
@@ -35,11 +35,11 @@
       "zone": "Invernadero",
       "source": "PLC1",
       "measures": {
-        "value": 92.09,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165103,
-        "timestamp": "2025-11-09T19:06:05.103Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "value": 49.7,
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471852,
+        "timestamp": "2025-11-11T11:11:11.852Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604a9"
     },
@@ -56,11 +56,11 @@
       "zone": "ExteriorPV",
       "source": "PLC6",
       "measures": {
-        "value": 14.5,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165059,
-        "timestamp": "2025-11-09T19:06:05.059Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "value": 19.46,
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471816,
+        "timestamp": "2025-11-11T11:11:11.816Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb6053e"
     },
@@ -77,11 +77,11 @@
       "zone": "ExteriorPV",
       "source": "PLC6",
       "measures": {
-        "value": 88.09,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165053,
-        "timestamp": "2025-11-09T19:06:05.053Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "value": 69.19,
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471811,
+        "timestamp": "2025-11-11T11:11:11.811Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb6053a"
     },
@@ -98,11 +98,11 @@
       "zone": "Invernadero",
       "source": "PLC1",
       "measures": {
-        "value": 0,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165104,
-        "timestamp": "2025-11-09T19:06:05.104Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "value": 132,
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471854,
+        "timestamp": "2025-11-11T11:11:11.854Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604aa"
     },
@@ -119,11 +119,11 @@
       "zone": "ExteriorPV",
       "source": "PLC6",
       "measures": {
-        "value": 0,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165057,
-        "timestamp": "2025-11-09T19:06:05.057Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "value": 644,
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471814,
+        "timestamp": "2025-11-11T11:11:11.814Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb6053c"
     },
@@ -140,11 +140,11 @@
       "zone": "ExteriorPV",
       "source": "PLC6",
       "measures": {
-        "value": 0,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165061,
-        "timestamp": "2025-11-09T19:06:05.061Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "value": 12.85,
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471817,
+        "timestamp": "2025-11-11T11:11:11.817Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb6053f"
     },
@@ -161,11 +161,11 @@
       "zone": "Invernadero",
       "source": "PLC1",
       "measures": {
-        "value": 0.43,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165112,
-        "timestamp": "2025-11-09T19:06:05.112Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "value": 0.41,
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471862,
+        "timestamp": "2025-11-11T11:11:11.862Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604af"
     },
@@ -182,11 +182,11 @@
       "zone": "Invernadero",
       "source": "PLC1",
       "measures": {
-        "value": 1.53,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165114,
-        "timestamp": "2025-11-09T19:06:05.114Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "value": 1.56,
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471864,
+        "timestamp": "2025-11-11T11:11:11.864Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604b0"
     },
@@ -203,11 +203,11 @@
       "zone": "Invernadero",
       "source": "PLC1",
       "measures": {
-        "value": 0.53,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165116,
-        "timestamp": "2025-11-09T19:06:05.116Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "value": 0.57,
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471866,
+        "timestamp": "2025-11-11T11:11:11.866Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604b1"
     },
@@ -224,11 +224,11 @@
       "zone": "Invernadero",
       "source": "PLC1",
       "measures": {
-        "value": 0.66,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165118,
-        "timestamp": "2025-11-09T19:06:05.118Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "value": 0.68,
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471867,
+        "timestamp": "2025-11-11T11:11:11.867Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604b2"
     },
@@ -245,11 +245,11 @@
       "zone": "Invernadero",
       "source": "PLC1",
       "measures": {
-        "value": 100,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165119,
-        "timestamp": "2025-11-09T19:06:05.119Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "value": 100.2,
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471870,
+        "timestamp": "2025-11-11T11:11:11.870Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604b6"
     },
@@ -267,10 +267,10 @@
       "source": "PLC1",
       "measures": {
         "value": 99.3,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165110,
-        "timestamp": "2025-11-09T19:06:05.110Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471860,
+        "timestamp": "2025-11-11T11:11:11.860Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604b3"
     },
@@ -288,10 +288,10 @@
       "source": "PLC1",
       "measures": {
         "value": 100,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165121,
-        "timestamp": "2025-11-09T19:06:05.121Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471871,
+        "timestamp": "2025-11-11T11:11:11.871Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604b5"
     },
@@ -309,10 +309,10 @@
       "source": "PLC2",
       "measures": {
         "value": 100,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165098,
-        "timestamp": "2025-11-09T19:06:05.098Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471859,
+        "timestamp": "2025-11-11T11:11:11.859Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604c0"
     },
@@ -330,10 +330,10 @@
       "source": "PLC2",
       "measures": {
         "value": 100,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165100,
-        "timestamp": "2025-11-09T19:06:05.100Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471861,
+        "timestamp": "2025-11-11T11:11:11.861Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604c1"
     },
@@ -351,10 +351,10 @@
       "source": "PLC2",
       "measures": {
         "value": 100,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165102,
-        "timestamp": "2025-11-09T19:06:05.102Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471862,
+        "timestamp": "2025-11-11T11:11:11.862Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604c2"
     },
@@ -371,11 +371,11 @@
       "zone": "Invernadero",
       "source": "PLC2",
       "measures": {
-        "value": 100,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165104,
-        "timestamp": "2025-11-09T19:06:05.104Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "value": 0.36,
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471863,
+        "timestamp": "2025-11-11T11:11:11.863Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604c3"
     },
@@ -392,11 +392,11 @@
       "zone": "Invernadero",
       "source": "PLC2",
       "measures": {
-        "value": 40.5,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165106,
-        "timestamp": "2025-11-09T19:06:05.106Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "value": 100.3,
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471866,
+        "timestamp": "2025-11-11T11:11:11.866Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604c5"
     },
@@ -413,11 +413,11 @@
       "zone": "Invernadero",
       "source": "PLC2",
       "measures": {
-        "value": 0.58,
-        "unixTimestamp": 1762715165,
-        "unixTimestampMS": 1762715165105,
-        "timestamp": "2025-11-09T19:06:05.105Z",
-        "datetime": "2025-11-09 20:06:05+01:00"
+        "value": 0.57,
+        "unixTimestamp": 1762859471,
+        "unixTimestampMS": 1762859471864,
+        "timestamp": "2025-11-11T11:11:11.864Z",
+        "datetime": "2025-11-11 12:11:11+01:00"
       },
       "_id": "6825d05805b42e8f1cb604c4"
     }
