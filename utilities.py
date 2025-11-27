@@ -6,6 +6,7 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
 import copy
+import os
 torch.manual_seed(42)
 np.random.seed(42)
 
@@ -381,6 +382,48 @@ def plot_loss(train_loss, val_loss, filename):
     plt.legend()
     plt.savefig(filename)
     plt.close()
+
+def learn(model, model_name, model_path, dataset, num_epochs, learning_rate, weight_decay, save_dir, config_string):
+    criterion = nn.MSELoss()
+    # optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate, weight_decay=weight_decay)
+    optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, weight_decay=weight_decay)
+    scheduler = torch.optim.lr_scheduler.LinearLR(optimizer, start_factor=1.0, end_factor=0.1, total_iters=num_epochs)
+
+    if not os.path.isfile(model_path):
+        train_loss, val_loss = train(model, dataset.train_loader, dataset.val_loader, criterion, optimizer, num_epochs=num_epochs, scheduler=scheduler)
+        print(f'Saving {model_name} state dict to {model_path}')
+        torch.save(model.state_dict(), model_path)
+        plot_loss(train_loss, val_loss, f'{save_dir}/loss_plot_{model_name}.png')
+    else:
+        print(f'Loading {model_name} state dict from {model_path}')
+        model.load_state_dict(torch.load(model_path, map_location=torch.device(device.type), weights_only=True))
+
+    # Inference
+    return test(model, dataset, save_dir, f'{model_name}')
+
+
+def transfer_learning_with_noise(model, model_name, model_path_source, model_path_target, dataset, num_epochs, learning_rate, weight_decay, save_dir, config_string, noise):
+    if not os.path.isfile(model_path_target):
+        # Load the pre-trained model
+        model.load_state_dict(torch.load(model_path_source, map_location=torch.device(device.type), weights_only=True))
+    
+        # add noise
+        with torch.no_grad():
+            for param in model.parameters():
+                param.add_(torch.randn(param.size()).to(device) * noise)
+        
+        criterion = nn.MSELoss()  # Mean Squared Error for regression
+        optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)  # Use a smaller learning rate
+    
+        # fine-tuning
+        train_loss, val_loss = train(model, dataset.train_loader, dataset.val_loader, criterion, optimizer, num_epochs=num_epochs)
+        torch.save(model.state_dict(), model_path_target)
+        plot_loss(train_loss, val_loss, f'{save_dir}/{model_name}_loss_plot.png')
+    else:
+        print(f'Loading model state dict from {model_path_target}')
+        model.load_state_dict(torch.load(model_path_target, map_location=torch.device(device.type), weights_only=True))
+    
+    return test(model, dataset, save_dir, model_name)
     
 
 def standardize(variable, name: str, mean_values: dict, std_values: dict, std_only=False):

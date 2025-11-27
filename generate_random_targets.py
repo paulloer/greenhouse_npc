@@ -5,7 +5,7 @@ from constants import TIME_CONTROL, URL, OPC_CONTROL_PARAM_DICT, OPC_PARAMETERS
 import numpy as np
 
 # control loop with encoders
-def generate_random_targets(shared_vent_postion_targets, lock_v, time_sleep=1800):
+def generate_random_targets(shared_vent_postion_targets, lock_v, time_sleep=300):
 
     while True:
         current_time = datetime.now()
@@ -22,7 +22,7 @@ def generate_random_targets(shared_vent_postion_targets, lock_v, time_sleep=1800
                 shared_vent_postion_targets.append(new_position)
         else:
             new_position = 100
-            print(f'Next target control is {new_position}')
+            print(f'Next target control is {new_position:.2f}')
             with lock_v:
                 shared_vent_postion_targets.append(new_position)
 

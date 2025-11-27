@@ -109,14 +109,14 @@ if __name__ == '__main__':
     lock_v = Lock()
     lock_p = Lock()
 
-    append_debug_data(CSV_PATH)
+    # append_debug_data(CSV_PATH)
 
     # initiliaze shared measurements with the last hours of data, if available
     load_last_hrs_to_shared_list(shared_measurements, 1)
 
     # initialize with last measured control, as this is the basis for optimization
     try:
-        shared_vent_postion_targets.append(shared_measurements[-1][8])
+        shared_vent_postion_targets.append(shared_measurements[-1][11])
     except IndexError:
         shared_vent_postion_targets.append(0)
 
@@ -135,7 +135,7 @@ if __name__ == '__main__':
     # save measurements every hour to csv
     processes.append(Process(target=periodic_saver, args=(shared_measurements, lock_m)))
     # generate random targets for the vent position during dataset creation
-    # processes.append(Process(target=generate_random_targets, args=(shared_vent_postion_targets, lock_v, 30)))
+    # processes.append(Process(target=generate_random_targets, args=(shared_vent_postion_targets, lock_v, 180)))
 
     for p in processes:
         p.start()

@@ -123,7 +123,7 @@ def optimize_U(control_name, model, device, weights, bounds, X_m, U_m, P_m, U_op
         loss += weights.alpha_window * torch.sum(torch.relu(torch.abs(U_m[0][-1] - U_opt[0]) - window_ub) ** 2)  # change in 30 seconds
         loss += weights.alpha_window * torch.sum(torch.relu(torch.abs(U_opt[:-1] - U_opt[1:]) - window_ub_pred) ** 2)  # change in stride minutes, e.g. 5 or 10 min
         # windows closed at night
-        loss += weights.alpha_window * torch.sum(torch.mul(is_night, torch.relu(destandardize(U_opt.squeeze(), control_name)/100)))
+        # loss += weights.alpha_window * torch.sum(torch.mul(is_night, torch.relu(destandardize(U_opt.squeeze(), control_name)/100)))
         # close windows when windy
         loss += weights.alpha_wind * torch.sum(torch.mul(torch.relu(Wind_speed_outside - wind_ub) ** 2, torch.relu(destandardize(U_opt.squeeze(), control_name)/100)))
         

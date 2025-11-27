@@ -16,28 +16,36 @@ def controller_loop(shared_measurements: ListProxy, shared_vent_postion_targets:
     scada_vents = ['Vent_S1_Side_N']
     broken_vents = ['Vent_S2_Side_S']
 
-    last_log_time = datetime.min
+    last_log_time = ""
+
+    last_target = -1.0
 
     while True:
-        current_time = datetime.now()
+
+        current_measurement_time, current_measurement = remote_read()
+        
 
         # Check if it is time to update vent positions and take measurement
-        if (current_time - last_log_time).total_seconds() >= TIME_CONTROL:
-            last_log_time = current_time
-            current_measurement = remote_read()
-
-            print('\n' + current_time.strftime('%Y-%m-%d %H:%M:%S'))
+        if current_measurement_time != last_log_time:
+            
+            print('\n' + current_measurement_time)
             print(current_measurement[7:20])
             with lock_m:
-                shared_measurements.append([current_time.strftime('%Y-%m-%d %H:%M:%S')] + current_measurement)
+                shared_measurements.append([current_measurement_time] + current_measurement)
 
+            last_log_time = current_measurement_time
         
-            with lock_v:
-                target = shared_vent_postion_targets[-1]
-            if target is None:
-                continue  # No target → nothing to do
+        with lock_v:
+            target = float(shared_vent_postion_targets[-1])
+        if target is None:
+            continue  # No target → nothing to do
 
+
+        # technically, this could stay in the if statement, but to make sure the newly calculated control is send directly, it is sent every second
+        if target != last_target:
             fiware_send(float(target))
+            print(f"Send next target to remote. Vents will move to {target:.2f} %.")
+            last_target = target
 
         time.sleep(1)  # Fast enough to respond quickly without overloading CPU
 

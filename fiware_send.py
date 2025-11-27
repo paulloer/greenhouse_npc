@@ -35,10 +35,11 @@ def fiware_send(value: float):
     # Realizar la petición PATCH
     try:
         response = requests.patch(url, headers=headers, json=data)
-        
-        if response.status_code == 204:
-            print("Atributos actualizados correctamente")
-        else:
+        # print(response)
+        # if response.status_code == 204:
+            # print("Atributos actualizados correctamente")
+        if response.status_code != 204:
+            # print("Atributos actualizados correctamente")
             print(f"Error: {response.status_code}")
             print(f"Respuesta: {response.text}")
             
@@ -47,5 +48,5 @@ def fiware_send(value: float):
 
 
 if __name__ == '__main__':
-    target_postion = 50
+    target_postion = 100
     fiware_send(target_postion)

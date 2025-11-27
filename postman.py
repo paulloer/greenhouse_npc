@@ -2,6 +2,7 @@ import requests
 import json
 from typing import Dict, List, Optional
 from constants import SENSOR_IDS
+import time
 
 class APIClient:
     def __init__(self, base_url: str, email: str, password: str):
@@ -55,7 +56,7 @@ class APIClient:
                 self.token = result.get('token') or result.get('access_token') or result.get('authToken')
                 
                 if self.token:
-                    print(f"✓ Login successful! Token: {self.token[:20]}...")
+                    # print(f"✓ Login successful! Token: {self.token[:20]}...")
                     return True
                 else:
                     print(f"⚠ Login returned 200 but no token found in response: {result}")
@@ -103,7 +104,7 @@ class APIClient:
             )
             
             if response.status_code == 200:
-                print(f"✓ Data retrieved successfully!")
+                # print(f"✓ Data retrieved successfully!")
                 return response.json()
             elif response.status_code == 401:
                 print(f"✗ Unauthorized (401). Token may have expired. Trying to re-login...")
@@ -152,35 +153,43 @@ def remote_read():
     else:
         print("\n✗ Failed to authenticate. Please check your credentials.")
 
-    return [entry["measures"]["value"] for entry in data["data"]]
+    return data["data"][0]["measures"]["datetime"][0:-6], [entry["measures"]["value"] for entry in data["data"]]
 
 
-# Example usage
-if __name__ == "__main__":
-    # Configuration
-    BASE_URL = "https://iveg.ual.es:3790"
-    EMAIL = "paul@ual.es"
-    PASSWORD = "Paul2024!"
+# # Example usage
+# if __name__ == "__main__":
+#     # Configuration
+#     BASE_URL = "https://iveg.ual.es:3790"
+#     EMAIL = "paul@ual.es"
+#     PASSWORD = "Paul2024!"
 
 
     
-    # Create client and authenticate
-    client = APIClient(BASE_URL, EMAIL, PASSWORD)
+#     # Create client and authenticate
+#     client = APIClient(BASE_URL, EMAIL, PASSWORD)
     
-    if client.login():
-        # Fetch data
-        data = client.get_last_data(SENSOR_IDS)
+#     if client.login():
+#         # Fetch data
+#         data = client.get_last_data(SENSOR_IDS)
         
-        if data:
-            # Pretty print the response
-            print("\n" + "="*50)
-            print("SENSOR DATA:")
-            print("="*50)
-            print(json.dumps(data, indent=2))
+#         if data:
+#             # Pretty print the response
+#             print("\n" + "="*50)
+#             print("SENSOR DATA:")
+#             print("="*50)
+#             print(json.dumps(data, indent=2))
             
-            # Optionally save to file
-            with open('sensor_data.json', 'w') as f:
-                json.dump(data, f, indent=2)
-            print("\n✓ Data saved to sensor_data.json")
-    else:
-        print("\n✗ Failed to authenticate. Please check your credentials.")
+#             # Optionally save to file
+#             with open('sensor_data.json', 'w') as f:
+#                 json.dump(data, f, indent=2)
+#             print("\n✓ Data saved to sensor_data.json")
+#     else:
+#         print("\n✗ Failed to authenticate. Please check your credentials.")
+
+if __name__ == "__main__":
+    last_print = time.time()
+    while(True):
+        if last_print + time.time() > last_print + 10000:
+            last_print = time.time()
+            data = remote_read()
+            print(data)

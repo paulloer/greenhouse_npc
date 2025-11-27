@@ -69,5 +69,5 @@ def periodic_saver(shared_measurements, lock_m):
     init_last_saved_timestamp()
     while True:
         save_shared_measurements_to_csv(shared_measurements, lock_m)
-        time.sleep(30)  # wait 3 minutes
+        time.sleep(30)  # wait x seconds
 

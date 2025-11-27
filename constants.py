@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 import os
 
-TIME_FORECAST = 3600
+TIME_FORECAST = 600
 TIME_SENSOR = 30
 TIME_CONTROL = 30
 TIME_LEARNING = 24*3600

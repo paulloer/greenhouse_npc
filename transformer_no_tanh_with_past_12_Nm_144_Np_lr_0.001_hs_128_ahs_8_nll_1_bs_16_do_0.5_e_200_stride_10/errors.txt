@@ -509,3 +509,6 @@ model_transfer_A25_to_J25_0.0n_0.001lr_200e_9days_on_A25: RMS Humidity Error of 
 
 model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_A25: RMS Temperature Error of 1.5638 with standard deviation 1.5230
 model_transfer_A25_to_J25_0.0n_0.001lr_200e_10days_on_A25: RMS Humidity Error of 13.8248 with standard deviation 12.5366
+
+model_N25_0.001lr_200e: RMS Temperature Error of 2.1283 with standard deviation 1.9162
+model_N25_0.001lr_200e: RMS Humidity Error of 23.1871 with standard deviation 11.1744

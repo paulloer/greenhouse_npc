@@ -14,7 +14,6 @@ from opc_client import gh_client
 from constants import ARGUMENTS, OPC_PARAMETERS, URL, TIME_CONTROL, TIME_LEARNING, TIME_FORECAST, COLUMNS, OPC_CONTROL_PARAM_DICT, mean_values, std_values
 
 
-
 def online_opt(shared_measurements, shared_vent_postion_targets, shared_model, lock_m, lock_v, lock_p):
 
     hours_m, hours_p, stride, N_m, N_p = ARGUMENTS.hours_m, ARGUMENTS.hours_p, ARGUMENTS.stride, ARGUMENTS.N_m, ARGUMENTS.N_p
@@ -25,7 +24,7 @@ def online_opt(shared_measurements, shared_vent_postion_targets, shared_model, l
                                     'Vent_S1_Side_N', 'Vent_S1_Side_NW', 'Vent_S1_Side_S', 'Vent_S1_Side_SW', 
                                     'Vent_S2_Roof_1', 'Vent_S2_Roof_2', 'Vent_S2_Roof_3',
                                     'Vent_S2_Side_E', 'Vent_S2_Side_N', 'Vent_S2_Side_S']
-    control_features_GH13 = [control_features_GH13[0]]
+    control_features_GH13 = [control_features_GH13[4]]  # roof vents' encoders are not functioning right now
     disturbance_features = ['Temperature_outside', 'Humidity_outside', 'Radiation_inside', 'Radiation_outside', 'Wind_speed_outside']
 
     # Create instance of transformer and load weights
@@ -47,11 +46,11 @@ def online_opt(shared_measurements, shared_vent_postion_targets, shared_model, l
     window_opening_time = 5*60 # sec
     Ts = 30  # time step of data
     window_ub =  Ts/window_opening_time*100  # max 10% per 30 seconds
-    wind_ub = 15
+    wind_ub = 30
 
-    optimizer_bounds = bounds(temp_target=55, # TODO change these values to the current climate
-                              temp_lower=50, 
-                              temp_upper=60, 
+    optimizer_bounds = bounds(temp_target=25, # TODO change these values to the current climate
+                              temp_lower=20, 
+                              temp_upper=30, 
                               humid_target=70, 
                               humid_lower=50, 
                               humid_upper=90, 
@@ -106,6 +105,7 @@ def online_opt(shared_measurements, shared_vent_postion_targets, shared_model, l
         if current_time - last_control_time >= update_interval_control:
             last_control_time = datetime.now()
 
+            # do the optimisation
             with lock_m:
                 n_samples = len(shared_measurements)
             if n_samples < n_samples_target:
@@ -118,7 +118,8 @@ def online_opt(shared_measurements, shared_vent_postion_targets, shared_model, l
                 X_m = measurements[state_features].iloc[indices].to_numpy()
                 U_m = measurements[control_features_GH13].iloc[indices].to_numpy()
                 P_m = measurements[disturbance_features].iloc[indices].to_numpy()
-                print(f"U_m: {U_m}")
+                # print(f"X_m: {X_m}")
+                # print(f"U_m: {U_m}")
                 idx = weather_forecast[weather_forecast['Date'].str.startswith((current_time+timedelta(seconds=TIME_CONTROL)).strftime('%Y-%m-%d %H:%M'))].index[0]
                 P_p = weather_forecast[idx:idx+N_p*stride:stride]
                 P_p = P_p.drop('Date', axis=1).to_numpy()
@@ -172,7 +173,6 @@ def online_opt(shared_measurements, shared_vent_postion_targets, shared_model, l
                 #     u_next = optimal_U[0].numpy()
 
                 u_next = max(0, min(optimal_U[0], 100))
-
                 print(f'Next target control is {u_next}')
 
                 with lock_v:
